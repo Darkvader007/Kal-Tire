@@ -1,0 +1,10 @@
+
+app.post("/signup", async (req, res)=> {
+    const userResponse = await Admin.auth().createUser({
+        email: req.body.email,
+        password: req.body.password,
+        emailverified: false,
+        disabled: false
+    });
+    res.json(user)
+})
