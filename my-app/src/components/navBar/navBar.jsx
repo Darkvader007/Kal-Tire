@@ -29,12 +29,12 @@ return (
           onMouseEnter={toggleDropdown}
           onMouseLeave={toggleDropdown}
         >
-          <a href="#locations">Services</a>
+          <a href="#Services">Services</a>
           {showDropdown && (
             <ul className="dropdown-content">
-              <li><a href="#location1">service 1</a></li>
-              <li><a href="#location2">service 2</a></li>
-              <li><a href="#location3">service 3</a></li>
+              <li><a href="#Maintenance & Management">Maintenance & Management</a></li>
+              <li><a href="#Technical Studies & Assessments">Technical Studies & Assessments</a></li>
+              <li><a href="#Tire & Operations & Management System (TOMS™)">Tire & Operations & Management System (TOMS™)</a></li>
             </ul>
           )}
         </li>
@@ -43,12 +43,12 @@ return (
           onMouseEnter={toggleDropdown}
           onMouseLeave={toggleDropdown}
         >
-          <a href="#locations">Locations</a>
+          <a href="#Sustainable Solutions">Sustainable Solutions</a>
           {showDropdown && (
             <ul className="dropdown-content">
-              <li><a href="#location1">Location 1</a></li>
-              <li><a href="#location2">Location 2</a></li>
-              <li><a href="#location3">Location 3</a></li>
+              <li><a href="#Recycling">Recycling</a></li>
+              <li><a href="#Retreads & Repairs">Retreads & Repairs</a></li>
+              <li><a href="#Maple Program">Maple Program</a></li>
             </ul>
           )}
         </li>
