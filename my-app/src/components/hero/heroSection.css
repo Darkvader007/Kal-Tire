@@ -1,21 +1,23 @@
-/* src/HeroSection.css */
-
 .hero-section {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 700px; 
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: left;
+    padding: 0 5%; /* Add padding for better content alignment */
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
 }
 
 .hero-content {
     text-align: center;
-    color: #fff;
-    margin-left: 70px;
+    color: #F26922;
+    margin-left: 2%;
     margin-bottom: 90px;
+    max-width: 800px; /* Limit width to prevent overly stretched content */
+    width: 100%; /* Full width on smaller screens */
 }
 
 .hero-content h1 {
@@ -27,89 +29,90 @@
     font-size: 1.25rem;
 }
 
-  /* Responsive Styles */
+/* Responsive Styles */
 
-  /* Mobile Devices (max-width: 600px) */
-    @media (max-width: 600px) {
-.hero-section {
-    height: 500px;
-    justify-content: center;
-    padding: 20px;
+/* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .hero-section {
+        height: 500px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .hero-content {
+        margin-left: 0;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
 }
 
-.hero-content {
-    margin-left: 0;
-    margin-bottom: 50px;
-    padding: 10px;
-}
-
-.hero-content h1 {
-    font-size: 1.75rem;
-}
-
-.hero-content p {
-    font-size: 1rem;
-}
-}
-
-  /* Tablets (min-width: 601px and max-width: 1024px) */
+/* Tablets (min-width: 601px and max-width: 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
     .hero-section {
-    height: 600px;
-    justify-content: center;
-    padding: 40px;
+        height: 600px;
+        justify-content: center;
+        padding: 40px;
     }
 
     .hero-content {
-    margin-left: 0;
-    margin-bottom: 70px;
+        margin-left: 0;
+        margin-bottom: 70px;
+        padding: 0 20px; /* Add padding to avoid content being too wide */
     }
 
     .hero-content h1 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     .hero-content p {
-    font-size: 1.125rem;
+        font-size: 1.125rem;
     }
 }
 
-  /* Small Desktops (min-width: 1025px and max-width: 1440px) */
+/* Small Desktops (min-width: 1025px and max-width: 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
     .hero-section {
-    height: 650px;
+        height: 650px;
     }
 
     .hero-content {
-    margin-left: 50px;
-    margin-bottom: 80px;
+        margin-left: 50px;
+        margin-bottom: 80px;
     }
 
     .hero-content h1 {
-    font-size: 2.25rem;
-    }
-
-.hero-content p {
-    font-size: 1.2rem;
-    }
-}
-
-  /* Large Desktops (min-width: 1441px) */
-    @media (min-width: 1441px) {
-    .hero-section {
-    height: 700px;
-    }
-
-    .hero-content {
-    margin-left: 70px;
-    margin-bottom: 90px;
-    }
-
-    .hero-content h1 {
-    font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .hero-content p {
-    font-size: 1.25rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* Large Desktops (min-width: 1441px) */
+@media (min-width: 1441px) {
+    .hero-section {
+        height: 700px;
+    }
+
+    .hero-content {
+        margin-left: 70px;
+        margin-bottom: 90px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
     }
 }

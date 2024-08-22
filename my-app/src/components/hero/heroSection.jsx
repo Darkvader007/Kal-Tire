@@ -7,8 +7,8 @@ const HeroSection = () => {
 return (
     <section className="hero-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="hero-content">
-            <h1>A good journey begins with a good tire</h1>
-            <p>Discover our range of high-quality tires for every road and weather condition.</p>
+            <h1>Tackle Any Terrain with Confidence </h1>
+            <p>Tires Built to Withstand the Toughest Work and Weather Conditions.</p>
         </div>
     </section>
 );
