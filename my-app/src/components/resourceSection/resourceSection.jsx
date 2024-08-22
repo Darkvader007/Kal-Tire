@@ -1,11 +1,11 @@
 // src/components/ResourcesSection.js
 import React from 'react';
 import '../resourceSection/resourceSection.css';
-import img0 from '../../Assets/Service.png';
-import img1 from '../../Assets/Maintainance.png';
-import img2 from '../../Assets/Tire.png';
-import img3 from '../../Assets/Service2.png';
-import img4 from '../../Assets/Service3.png';
+import img0 from '../../Assets/photo_2024-08-22_22-15-25.jpg';
+import img1 from '../../Assets/photo_2024-08-22_22-15-34.jpg';
+import img2 from '../../Assets/photo_2024-08-22_22-15-27.jpg';
+import img3 from '../../Assets/photo_2024-08-22_22-15-31.jpg';
+import img4 from '../../Assets/photo_2024-08-22_22-15-36.jpg';
 
 const resources = [
 {

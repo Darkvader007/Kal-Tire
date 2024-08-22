@@ -1,7 +1,7 @@
 // src/HeroSection.js
 import React from 'react';
 import '../hero/heroSection.css';
-import backgroundImage from '../../Assets/hero-image.png';
+import backgroundImage from '../../Assets/pexels-ywanphoto-188679.jpg';
 
 const HeroSection = () => {
 return (
